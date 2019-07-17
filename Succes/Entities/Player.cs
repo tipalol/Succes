@@ -30,11 +30,7 @@ namespace Succes.Entities
         }
         public Player()
         {
-            switch (Game.GetGame().Mode)
-            {
-                //TODO
-                //Set up consts and so on
-            }
+            MAX_DOUBT = Game.Settings.MAX_DOUBT;
         }
     }
 }
